@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: ldap
-          image: ${ECR_REPO}/log4shell-server:latest
+          image: ${REPO}/log4shell-server:latest
           imagePullPolicy: Always
 ---
 apiVersion: v1

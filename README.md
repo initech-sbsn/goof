@@ -3,7 +3,9 @@
 
 Welcome to the Snyk "Goof" vulnerable demo application repo.
 This repository contains a pair of purposefully vulnerable applications used for the purpose of demonstrating Snyk's capabilities in finding and fixing vulnerabilities in your dependencies and container images.
-This repo is used as part of the AWS + Snyk workshop found [here](https://docker-snyk.awsworkshop.io/)
+This repo is used as part of several Snyk Snyk workshops including:
+* https://container-security-snyk.awsworkshop.io/
+* https://snyk-labs.github.io/snyk-gcp-container-live-hack
 
 ---
 ## WARNING! | ACHTUNG! | ¡PRECAUCIÓN! | !AVERTISSEMENT!
