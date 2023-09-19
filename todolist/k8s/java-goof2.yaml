@@ -17,7 +17,7 @@ spec:
         app: todolist
     spec:
       containers:
-      - image: ${ECR_REPO}/java-goof:latest
+      - image: ${REPO}/java-goof:latest
         imagePullPolicy: Always
         name: todolist
         securityContext:

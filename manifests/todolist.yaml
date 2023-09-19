@@ -16,7 +16,7 @@ spec:
         app: todolist
     spec:
       containers:
-      - image: ${ECR_REPO}/todolist:latest
+      - image: ${REPO}/todolist:latest
         imagePullPolicy: Always
         name: java-todolist
       restartPolicy: Always

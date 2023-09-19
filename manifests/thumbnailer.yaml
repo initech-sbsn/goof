@@ -17,7 +17,7 @@ spec:
         app: thumbnailer
     spec:
       containers:
-        - image: ${ECR_REPO}/thumbnailer:latest
+        - image: ${REPO}/thumbnailer:latest
           imagePullPolicy: Always
           name: thumbnailer
           ports:
