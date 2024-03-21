@@ -1,6 +1,6 @@
 FROM python:3.11.1
 
-RUN pip install flask
+RUN pip install flask waitress
 
 COPY webapp.py webapp.py
 COPY templates templates
